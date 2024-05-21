@@ -59,10 +59,20 @@
 
 ```bash
 
-
-
+  432  git checkout -b ft/branch
+  433  touch test5.md
+  434  git add test5.md
+  435  git commit -m "Implemented test 5"
+  436  git checkout main
+  437  git cherry-pick ft/branch
+  
 ```
 
+### Exercise 9 - 10
 
+```bash
+  439  git log --graph --oneline --all
+  440  git reflog
+```
 
 
