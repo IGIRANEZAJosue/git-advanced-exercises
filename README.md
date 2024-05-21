@@ -122,10 +122,47 @@
 
 # Part 3
 
-### Exercise 1
+### Exercise 1 - 3
 
 ```bash
 
+  495  git stash
+  496  git stash pop
+  497  touch conflict.txt
+  498  git add conflict.txt
+  499  git commit -m "Add conflict file in main"
+  500  git checkout -b ft/conflict
+  501  touch conflict.txt
+  502  git add conflict.txt
+  503  git commit -m "Add conflict file in confict file"
+  504  git checkout main
+  505  git merge ft/conflict
+  506  git add conflict.txt
+  507  git merge ft/conflict
+  508  git status
+  509  git add conflict.txt
+  510  git status
+  511  git checkout ft/conflict
+  512  checkout main
+  513  git checkout main
+  514  git add .
+  515  git status
+  516  git commit -m "Create conflict on main"
+  517  git checkout ft/conflict
+  518  git status
+  519  git add .
+  520  git status
+  521  git commit -m "Create conflict on ft branch"
+  522  git checkout main
+  523  git merge ft/conflict
+  524  git add .
+  526  git commit -m "Resolved conflict"
+
+```
+
+### Exercise 4 
+
+```bash
 
 
 ```
