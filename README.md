@@ -75,6 +75,8 @@
   440  git reflog
 ```
 
+
+
 # Part 2
 
 ### Exercise 1 - 5
@@ -119,6 +121,7 @@
   480  git checkout 7dc5ea1
 
 ```
+
 
 # Part 3
 
