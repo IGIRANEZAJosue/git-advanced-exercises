@@ -75,4 +75,52 @@
   440  git reflog
 ```
 
+# Part 2
+
+### Exercise 1 - 5
+
+```bash
+  448  git checkout -b ft/new-feature
+  449  touch feature.txt
+  450  git add feature.txt
+  451  git status
+  452  git status
+  453  git add .
+  454  git status
+  455  git commit -m "Implemented core functionality for new feature"
+  456  git checkout main
+  457  touch readme.txt
+  458  git status
+  459  git add readme.txt
+  460  git commit -m "Updated project readme"
+  461  git push
+  462  git checkout -d ft/new-feature
+
+```
+
+### Exercise 6 - 10
+
+```bash
+  465  git log
+  466  git log --oneline
+  467  git checkout -b ft/new-branch-from-commit 4c1dfe7
+  468  git checkout main
+  469  git merge ft/new-branch-from-commit
+  470  git checkout ft/new-branch-from-commit
+  471  git rebase main
+  472  git status
+  473  git add .
+  474  git status
+  475  git rebase main
+  476  git commit -m "Update README"
+  477  git rebase main
+  478  git branch -m ft/new-branch-from-commit ft/improved-branch-name
+  479  git log --oneline
+  480  git checkout 7dc5ea1
+
+```
+
+# Part 3
+
+### Exercise 1
 
