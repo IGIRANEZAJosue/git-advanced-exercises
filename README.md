@@ -75,4 +75,31 @@
   440  git reflog
 ```
 
+# Part 2
 
+### Exercise 1 - 5
+
+```bash
+  448  git checkout -b ft/new-feature
+  449  touch feature.txt
+  450  git add feature.txt
+  451  git status
+  452  git status
+  453  git add .
+  454  git status
+  455  git commit -m "Implemented core functionality for new feature"
+  456  git checkout main
+  457  touch readme.txt
+  458  git status
+  459  git add readme.txt
+  460  git commit -m "Updated project readme"
+  461  git push
+  462  git checkout -d ft/new-feature
+
+```
+
+### Exercise 6
+
+```bash
+
+```
