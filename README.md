@@ -164,5 +164,16 @@
 
 ```bash
 
+  534  git mergetool
+  535  git checkout ft/new-feature
+  536  git checkout main
+  537  touch .gitignore
+  538  git tag v1.0
+  539  git tag
+  540  git tag -d v1.0
+  541  git add .
+  542  git commit -m "Add tags & delete them"
+  543  git push
+  544  git pull origin main
 
 ```
